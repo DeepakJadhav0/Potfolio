@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin, MessageSquare, Copy, Check } from 'lucide-react
 
 export default function ContactCard() {
   const [copied, setCopied] = useState(false);
-  const email = "deepakjadhav0@gmail.com";
+  const email = "deepak0jadhav0@gmail.com";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);
