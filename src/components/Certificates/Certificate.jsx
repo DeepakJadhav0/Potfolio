@@ -2,15 +2,15 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
 const certificates = [
-  { id: 1, name: "C++", issuer: "W3Schools", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324580/c_Certidicate_fooxh9.png" },
-  { id: 2, name: "HTML & CSS", issuer: "SimplyLearn", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324609/html-css_Certidicate_doka5l.png" },
-  { id: 3, name: "JavaScript junior developer", issuer: "Certificates.dev", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324618/javascript_Certificate_amd6kq.png" },
-  { id: 4, name: "JavaScript Algorithms", issuer: "freeCodeCamp", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324610/javascript_advance_f3bhox.png" },
-  { id: 5, name: "React Basics", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324612/react_Certificate_yxnrid.png" },
-  { id: 6, name: "React Junior Developer", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324615/react_y12ild.png" },
-  { id: 7, name: "React Mid-Level", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324615/react-mid_s8lpat.png" },
-  { id: 8, name: "Node.js", issuer: "SimplyLearn", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324612/node_z0smcq.png" },
-  { id: 9, name: "MongoDB", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771324611/mongodb_ckz4bf.png" },
+  { id: 1, name: "C++", issuer: "W3Schools", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771604092/1771600964880_bs2aoi.png" },
+  { id: 2, name: "HTML & CSS", issuer: "SimplyLearn", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603701/Picsart_26-02-20_21-31-03-822_k1ieji.jpg" },
+  { id: 3, name: "JavaScript junior developer", issuer: "Certificates.dev", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603700/Picsart_26-02-20_21-33-28-365_uvtcp1.jpg" },
+  { id: 4, name: "JavaScript Algorithms", issuer: "freeCodeCamp", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603101594_ki02ot.png" },
+  { id: 5, name: "React Basics", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603120546_iuvnt5.png" },
+  { id: 6, name: "React Junior Developer", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603700/Picsart_26-02-20_21-34-10-427_ee6h07.jpg" },
+  { id: 7, name: "React Mid-Level", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603701/Picsart_26-02-20_21-34-48-197_uve7us.jpg" },
+  { id: 8, name: "Node.js", issuer: "SimplyLearn", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603702/Picsart_26-02-20_21-35-53-838_xc9w2c.jpg" },
+  { id: 9, name: "MongoDB", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603123420_czug4d.png" },
 ];
 
 const CertCard = ({ cert }) => (
@@ -31,9 +31,6 @@ const CertCard = ({ cert }) => (
             <h4 className="text-white font-bold text-sm md:text-lg leading-tight mb-2 md:mb-4">{cert.name}</h4>
             <div className="flex justify-between items-center border-t border-white/10 pt-3 md:pt-4">
                <span className="text-white/40 text-[8px] md:text-[10px] font-mono">{cert.date}</span>
-               <div className="flex items-center gap-1 text-white/60 text-[9px] md:text-[10px] font-bold uppercase tracking-tighter group-hover:text-yellow-400 transition-colors">
-                  Verify <ExternalLink size={10} className="md:w-3 md:h-3" />
-               </div>
             </div>
          </div>
       </div>

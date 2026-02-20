@@ -79,15 +79,18 @@ const HeroContent = () => (
     </p>
 
     <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 md:gap-6">
-      <button className="w-full sm:w-auto px-10 py-4 bg-yellow-400 text-black font-black rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(234,179,8,0.2)]">
-        Download 
+      <button  className="w-full sm:w-auto px-10 py-4 bg-yellow-400 text-black font-black rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(234,179,8,0.2)]">
+       <a href="./DeepakJadhav_MERN.pdf" download>
+        Download Resume
+       </a>
       </button>
-      <a href="#contact" className="text-white hover:text-yellow-400 font-bold text-sm tracking-widest uppercase transition-colors py-2">
+      <a href="#projects" className="text-white hover:text-yellow-400 font-bold text-sm tracking-widest uppercase transition-colors py-2">
         View Projects —
       </a>
     </div>
   </div>
 );
+
 
 // --- MAIN HOME COMPONENT ---
 export default function Home() {
