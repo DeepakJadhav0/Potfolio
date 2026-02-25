@@ -4,11 +4,10 @@ import { ExternalLink } from 'lucide-react';
 const certificates = [
   { id: 1, name: "C++", issuer: "W3Schools", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771604092/1771600964880_bs2aoi.png" },
   { id: 2, name: "HTML & CSS", issuer: "SimplyLearn", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603701/Picsart_26-02-20_21-31-03-822_k1ieji.jpg" },
-  { id: 3, name: "JavaScript junior developer", issuer: "Certificates.dev", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603700/Picsart_26-02-20_21-33-28-365_uvtcp1.jpg" },
   { id: 4, name: "JavaScript Algorithms", issuer: "freeCodeCamp", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603101594_ki02ot.png" },
   { id: 5, name: "React Basics", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603120546_iuvnt5.png" },
-  { id: 6, name: "React Junior Developer", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603700/Picsart_26-02-20_21-34-10-427_ee6h07.jpg" },
-  { id: 7, name: "React Mid-Level", issuer: "Certificates.dev", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603701/Picsart_26-02-20_21-34-48-197_uve7us.jpg" },
+  { id: 1, name: "C++", issuer: "W3Schools", date: "2024", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771604092/1771600964880_bs2aoi.png" },
+  { id: 4, name: "JavaScript Algorithms", issuer: "freeCodeCamp", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603101594_ki02ot.png" },
   { id: 8, name: "Node.js", issuer: "SimplyLearn", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603702/Picsart_26-02-20_21-35-53-838_xc9w2c.jpg" },
   { id: 9, name: "MongoDB", issuer: "W3Schools", date: "2025", image: "https://res.cloudinary.com/ddfvm5qgv/image/upload/v1771603669/1771603123420_czug4d.png" },
 ];

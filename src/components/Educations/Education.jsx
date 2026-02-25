@@ -23,7 +23,7 @@ const educationData = [
   {
     type: "Higher Secondary",
     title: "12th Grade (HSC)",
-    institution: "Junior College, Gadhinglaj",
+    institution: "R K Junior College, Gadhinglaj",
     date: "2019 - 2021",
     status: "Completed",
     desc: "Science Stream with a focus on Mathematics and Computer Science.",
